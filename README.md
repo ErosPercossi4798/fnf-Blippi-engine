@@ -1,6 +1,6 @@
-# TBar-Engine
+# Blippi-Engine
 ## When 3D and Psych Engine combine
-T-Bar Engine is a 0.6.3 Psych Engine fork that adds 3D model support + some Codename Engine quality-of-life features.
+Blippi Engine is a 0.6.3 Psych Engine fork that adds 3D model support + some Codename Engine quality-of-life features.
 Features from both 0.7.3 Psych Engine and Codename Engine, while still trying it's best to keep the 0.6.3 feel with
 
 # Features
@@ -20,7 +20,7 @@ See [unfinished] for the api on all the callbacks and menu specific callbacks.
 Lua Scripts have way more lua functions added, some from 0.7.3 and even some completely new ones!
 
 ## New Crash Handler
-The new crash handler will no longer close the game (unless it's an uncaught error /shrug). Instead, it will reset to the main menu.
+This new Crash Handler it will take you to the Main MENU!!!
 
 ## New Videos Handler
 T-Bar Engine now uses hxvlc, making it possible to do unskippable cutscenes, midsong cutscenes, and even play videos from an online source.
@@ -44,7 +44,7 @@ windowAlert('Hi, I'm a message', 'Title Lol')
 windowTweenY('windowGoBurY', 100, 7, 'linear')
 ```
 
-## Installation:
+## SoOoOoO wanna compile the source code follow these instructions!:
 (You must have the components to compile Psych 0.6.3)
 
 Some of the libraries use codename forks, so install them using:
@@ -53,6 +53,47 @@ haxelib git hscript-improved https://github.com/CodenameCrew/hscript-improved
 haxelib git hxdiscord_rpc https://github.com/CodenameCrew/hxdiscord_rpc
 haxelib git away3d https://github.com/CodenameCrew/away3d
 ```
+and some this needed
+
+Install Haxe 4.2.5 →  https://haxe.org/download/version/4.2.5/
+
+Install HaxeFlixel → https://haxeflixel.com/documentation/...
+
+Insert these commands into the command prompt
+haxelib install flixel-addons
+haxelib install flixel-ui
+haxelib install hscript
+haxelib install newgrounds
+
+Install Git → https://git-scm.com/downloads
+
+Run these through command prompt
+haxelib git polymod https://github.com/larsiusprime/polym...
+haxelib git discord_rpc https://github.com/Aidan63/linc_disco...
+haxelib git flixel-addons https://github.com/HaxeFlixel/flixel-...
+
+haxelib install hxCodec
+haxelib install Brewscript
+haxelib git linc_luajit https://github.com/superpowers04/linc...
+haxelib git hxCodec https://github.com/polybiusproxy/hxCo...
+haxelib git flxanimate https://github.com/ShadowMario/flxani... dev
+
+Setting up the right versions
+haxelib set flixel-addons 3.0.2
+haxelib set flixel-demos 2.9.0
+haxelib set flixel-templates 2.6.6
+haxelib set flixel-tools 1.5.1
+haxelib set flixel-ui 2.5.0
+haxelib set flixel 5.2.2
+haxelib set flxanimate 3.0.4
+haxelib set hscript 2.5.0
+haxelib set lime-samples 7.0.0
+haxelib set lime 8.0.1
+haxelib set openfl 9.2.1
+
+then if you are done with this type lime test windows to the cmd or powershell and....
+
+Congrats You compiled the source code of fnf blippi engine!!
 
 For videos, run:
 ```
